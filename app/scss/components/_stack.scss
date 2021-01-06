@@ -1,5 +1,6 @@
 .stack {
   position: relative;
+  overflow: hidden;
 
   &__title {
     &::after {

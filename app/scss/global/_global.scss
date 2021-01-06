@@ -21,10 +21,6 @@ body {
 
 .section {
   min-height: 100vh;
-
-  &:nth-child(even) {
-    background-color: rgb(255, 246, 246);
-  }
 }
 
 .title {
@@ -45,6 +41,7 @@ body {
   margin-bottom: 20px;
   @extend %rubik-300;
   line-height: 1.5;
+  cursor: default;
 }
 
 .container {

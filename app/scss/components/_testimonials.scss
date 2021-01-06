@@ -1,0 +1,18 @@
+.testimonials {
+  background-image: url('../../images/icons/testimonials-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__title {
+    &::after {
+      @include title('MONIALS');
+    }
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 15px;
+  }
+}

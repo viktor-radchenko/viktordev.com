@@ -1,9 +1,15 @@
 @import 'global/reset';
 @import 'global/vars';
 @import 'global/global';
+@import 'global/libs';
 @import 'global/fonts';
 
 @import 'components/header';
 @import 'components/about';
 @import 'components/stack';
+@import 'components/portfolio';
+@import 'components/projects';
+@import 'components/testimonials';
+@import 'components/card';
+@import 'components/contact';
 @import 'components/footer';
