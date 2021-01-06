@@ -1,0 +1,16 @@
+.footer {
+  padding: 45px 0;
+  background-color: $bg;
+
+  &__inner {
+    max-width: 470px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  &__site-name {
+    color: $accent;
+  }
+}

@@ -1,4 +1,4 @@
-$default: #333;
+$default: #111;
 $accent: #FA3138;
 $bg: #FEC112;
 $bg-accent: #26E0E0;
@@ -21,4 +21,10 @@ $blue: #00BFFF;
 %rubik-700 {
   font-family: "Rubik", sans-serif;
   font-weight: 700;
+}
+
+@mixin r($width) {
+  @media only screen and (max-width: $width+ "px") {
+    @content; 
+  } 
 }
