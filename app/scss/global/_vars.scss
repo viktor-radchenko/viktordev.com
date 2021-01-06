@@ -28,3 +28,14 @@ $blue: #00BFFF;
     @content; 
   } 
 }
+
+@mixin title($content) {
+  content: $content;
+  position: absolute;
+  font-size: 150px;
+  line-height: 1;
+  color: #F2F2F2;
+  top: 25px;
+  left: -200px;
+  z-index: -1;
+}

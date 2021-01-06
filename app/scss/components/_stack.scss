@@ -1,0 +1,28 @@
+.stack {
+  position: relative;
+
+  &__title {
+    &::after {
+      @include title('STACK');
+    }
+  }
+
+  &__list {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 530px;
+    transform: rotate(15deg);
+  }
+
+  &__item {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 30px;
+    background-color: #ccc;
+    border-radius: 10px;
+  }
+}

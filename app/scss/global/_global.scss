@@ -23,8 +23,28 @@ body {
   min-height: 100vh;
 
   &:nth-child(even) {
-    background-color: #ccc;
+    background-color: rgb(255, 246, 246);
   }
+}
+
+.title {
+  padding: 65px 0;
+  @extend %rubik-700;
+  font-size: 50px;
+  position: relative;
+  z-index: 2;
+  text-transform: uppercase;
+
+  span {
+    color: $bg;
+  }
+}
+
+.text {
+  max-width: 670px;
+  margin-bottom: 20px;
+  @extend %rubik-300;
+  line-height: 1.5;
 }
 
 .container {
