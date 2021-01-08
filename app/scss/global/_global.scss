@@ -56,10 +56,11 @@ body {
 }
 
 .btn {
-  padding: 10px 25px;
+  padding: 10px 15px;
   border: 1px solid $default;
-  border-radius: 15px;
+  border-radius: 10px;
   transition: all 0.3s;
+  cursor: pointer;
 
   &:hover {
     background-color: #fff;

@@ -64,4 +64,11 @@
       border-color: $bg;
     }
   }
+
+  &__submit {
+    display: block;
+    max-width: 100px;
+    border: none;
+    background-color: transparent;
+  }
 }

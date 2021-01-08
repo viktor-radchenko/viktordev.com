@@ -1,4 +1,8 @@
 .about {
+  background-image: url('../../images/icons/about-bg.svg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: top right;
 
   &__title {
     &::after {
